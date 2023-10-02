@@ -1,6 +1,6 @@
 import requests
 
-def get_RUB_USD_rate():
+def get_rate():
     # The API endpoint
     url = "https://iss.moex.com/iss/statistics/engines/currency/markets/selt/rates.json?iss.meta=off"
 
@@ -15,4 +15,4 @@ def get_RUB_USD_rate():
 
     return direct_rate
 
-get_RUB_USD_rate()
+get_rate()
